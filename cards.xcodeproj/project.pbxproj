@@ -16,6 +16,7 @@
 		FD013E712C3ACAB700DAA5AD /* cardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E702C3ACAB700DAA5AD /* cardsTests.swift */; };
 		FD013E7B2C3ACAB700DAA5AD /* cardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E7A2C3ACAB700DAA5AD /* cardsUITests.swift */; };
 		FD013E7D2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E7C2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift */; };
+		FD013E8A2C3B0D1300DAA5AD /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E892C3B0D1300DAA5AD /* GameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD013E762C3ACAB700DAA5AD /* cardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD013E7A2C3ACAB700DAA5AD /* cardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsUITests.swift; sourceTree = "<group>"; };
 		FD013E7C2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD013E892C3B0D1300DAA5AD /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FD013E582C3ACAB600DAA5AD /* cards */ = {
 			isa = PBXGroup;
 			children = (
+				FD013E892C3B0D1300DAA5AD /* GameController.swift */,
 				FD013E592C3ACAB600DAA5AD /* AppDelegate.swift */,
 				FD013E5B2C3ACAB600DAA5AD /* SceneDelegate.swift */,
 				FD013E5D2C3ACAB600DAA5AD /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD013E5E2C3ACAB600DAA5AD /* ViewController.swift in Sources */,
+				FD013E8A2C3B0D1300DAA5AD /* GameController.swift in Sources */,
 				FD013E5A2C3ACAB600DAA5AD /* AppDelegate.swift in Sources */,
 				FD013E5C2C3ACAB600DAA5AD /* SceneDelegate.swift in Sources */,
 			);
