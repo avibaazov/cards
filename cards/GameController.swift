@@ -31,6 +31,7 @@ class GameController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         print("GameController loaded")
         print("userName: \(userName)")
         print("userSide: \(userSide)")
@@ -86,6 +87,7 @@ class GameController: UIViewController {
         let card2 = getRandomCard()
         cardImageView1.image = UIImage(named: card1.imageName)
         cardImageView2.image = UIImage(named: card2.imageName)
+       
         
         // Update scores
         if card1.strength > card2.strength {
@@ -98,8 +100,8 @@ class GameController: UIViewController {
         
         // Hide cards after 3 seconds
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-            self.cardImageView1.image = nil
-            self.cardImageView2.image = nil
+            self.cardImageView1.image = UIImage(named: "poker")
+            self.cardImageView2.image = UIImage(named: "poker")
         }
         
         gameCount += 1

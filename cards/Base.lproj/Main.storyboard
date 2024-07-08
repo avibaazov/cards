@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fCG-WX-m61" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1415.4929577464789" y="3.8167938931297707"/>
+            <point key="canvasLocation" x="1414.7887323943662" y="3.8167938931297707"/>
         </scene>
         <!--Summary View Controller-->
         <scene sceneID="yZc-6c-wjG">
@@ -164,10 +164,9 @@
         <!--Navigation Controller-->
         <scene sceneID="DTj-xG-6JY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RyS-xX-yIr" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="RyS-xX-yIr" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cTQ-wC-Z6m">
-                        <rect key="frame" x="0.0" y="0.0" width="852" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
