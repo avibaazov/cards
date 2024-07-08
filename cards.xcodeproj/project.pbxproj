@@ -17,6 +17,7 @@
 		FD013E7B2C3ACAB700DAA5AD /* cardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E7A2C3ACAB700DAA5AD /* cardsUITests.swift */; };
 		FD013E7D2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E7C2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift */; };
 		FD013E8A2C3B0D1300DAA5AD /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E892C3B0D1300DAA5AD /* GameController.swift */; };
+		FD013E8C2C3C596D00DAA5AD /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD013E8B2C3C596D00DAA5AD /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FD013E7A2C3ACAB700DAA5AD /* cardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsUITests.swift; sourceTree = "<group>"; };
 		FD013E7C2C3ACAB700DAA5AD /* cardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FD013E892C3B0D1300DAA5AD /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		FD013E8B2C3C596D00DAA5AD /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FD013E622C3ACAB700DAA5AD /* Assets.xcassets */,
 				FD013E642C3ACAB700DAA5AD /* LaunchScreen.storyboard */,
 				FD013E672C3ACAB700DAA5AD /* Info.plist */,
+				FD013E8B2C3C596D00DAA5AD /* SummaryViewController.swift */,
 			);
 			path = cards;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				FD013E8A2C3B0D1300DAA5AD /* GameController.swift in Sources */,
 				FD013E5A2C3ACAB600DAA5AD /* AppDelegate.swift in Sources */,
 				FD013E5C2C3ACAB600DAA5AD /* SceneDelegate.swift in Sources */,
+				FD013E8C2C3C596D00DAA5AD /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

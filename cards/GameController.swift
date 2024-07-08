@@ -118,9 +118,15 @@ class GameController: UIViewController {
         }
     
     func endGame() {
-        timer?.invalidate()
-        performSegue(withIdentifier: "showSummaryScreen", sender: nil)
-    }
+            timer?.invalidate()
+            if let summaryVC = storyboard?.instantiateViewController(withIdentifier: "SummaryViewController") as? SummaryViewController {
+                summaryVC.player1Score = player1Score
+                summaryVC.player2Score = player2Score
+                summaryVC.player1Name = player1Name
+                summaryVC.player2Name = player2Name
+                navigationController?.pushViewController(summaryVC, animated: true)
+            }
+        }
     
  
     }
